@@ -1,0 +1,7 @@
+    <p>Top 5 students: </p>
+    <div>
+        <a *ngFor="let hero of list" routerLink="/details/{{hero.id}}">
+            <div><span>Name: </span>{{hero.name}}</div>
+        </a>
+
+    </div>

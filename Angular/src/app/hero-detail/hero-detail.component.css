@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    color: grey;
+    font-size: 13px;
+    position: relative;
+    top: -1px;
+    margin: 0px 0px 0px 5px;
+}
+h4{
+    margin: 30px 30px 10px 10px;
+    color: #272343;
+}
+table{
+    margin: 10px;
+    color: #393e46;
+}
+button{
+    color: #272343;
+    margin: 10px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    position: relative;
+    top: -30px;
+    left: 5px;
+}

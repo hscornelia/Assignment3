@@ -1,0 +1,31 @@
+<div *ngIf="hero">
+    <h4>Details about hero</h4>
+    <table>
+        <tr>
+            <td>Name: </td>
+            <td>{{hero.name}}</td>
+        </tr>
+        <tr>
+            <td>ID: </td>
+            <td>{{hero.id}}</td>
+        </tr>
+        <tr>
+            <td>Major: </td>
+            <td>{{hero.major}}</td>
+        </tr>
+    </table>
+<h4>Edit student:</h4>
+<table>
+        <tr>
+            <td>Change name: </td>
+            <td><input [(ngModel)]="hero.name" placeholder="Name"/></td>
+        </tr>
+        <tr>
+            <td>Change major: </td>
+            <td><input [(ngModel)]="hero.major" placeholder="Major"/></td>
+        </tr>
+    </table>
+</div>
+<br>
+<button (click)="save()">Save</button>
+<button (click)="goBack()">Go Back</button>
